@@ -2,36 +2,43 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: antiquewhite;
 }
+
 .header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
 }
+
 .container {
     max-width: 1100px;
     margin: 0 auto;
     padding: 50px 20px;
 }
+
 .header {
     background: linear-gradient(135deg, #000000 0%, #00d0ff 100%);
 }
+
 .avatar-logo {
     display: flex;
     align-items: center;
-    text-shadow: 1px 2px 2px white;    
+    text-shadow: 1px 2px 2px white;
 
 }
+
 .hero {
     background: linear-gradient(135deg, #000000 0%, #00eeff 100%);
     text-align: center;
     color: white;
     padding: 120px;
 }
+
 .avatar {
     background: linear-gradient(135deg, #000000 0%, #00eeff 100%);
     width: 50px;
@@ -43,13 +50,13 @@ body {
     justify-content: center;
 }
 
-a{
-       text-decoration: none;
-       color: white;
+a {
+    text-decoration: none;
+    color: white;
 }
 
 
-.card{
+.card {
     padding: 50px;
     display: flex;
     justify-content: center;
@@ -57,19 +64,19 @@ a{
 }
 
 
-.conet{
-       margin: 0 auto ;
-       max-width: 1100px;
+.conet {
+    margin: 0 auto;
+    max-width: 1100px;
 }
 
 
-.footer{
+.footer {
     background: linear-gradient(135deg, #000000 0%, #00eeff 100%);
     padding: 15px;
     text-align: center;
 }
 
-.hero{
+.hero {
     background: linear-gradient(135deg, #000000 0%, #00eeff 100%);
     padding: 25px;
     text-align: center;
@@ -78,7 +85,7 @@ a{
     gap: 20px;
 }
 
-.image{
+.image {
     display: flex;
     gap: 15px;
     justify-content: center;
@@ -94,7 +101,7 @@ a{
 .image img:hover {
     transition: 0.3s;
     transform: translateY(-10px);
-    box-shadow:  0px 0px 10px 10px rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 10px rgb(255, 255, 255);
 
 
 }
@@ -105,18 +112,14 @@ a{
     border-radius: 50%;
 }
 
-.nav{
+.nav {
     display: flex;
     text-shadow: 2px 2px 2px white;
     gap: 15px;
 }
 
-.saxifa{
+.saxifa {
     display: flex;
     width: 50px;
     height: 50px;
 }
-
-
-
-
