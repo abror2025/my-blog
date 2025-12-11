@@ -125,3 +125,18 @@ a {
     height: 50px;
     
 }
+
+.nomer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    transition: tranform 0.5s ease-in-out;
+}
+
+.nomer:hover{
+    transition: 0.3s;
+    box-shadow: 0px 0px 0px 0px rgb(255, 255, 255);
+}
+
+
+
