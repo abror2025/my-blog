@@ -57,10 +57,12 @@ a {
 
 
 .card {
-    padding: 50px;
+    padding: 40px;
     display: flex;
+    align-items: center;
     justify-content: center;
     gap: 20px;
+
 }
 
 
@@ -119,24 +121,28 @@ a {
 }
 
 .saxifa {
-    display: flex;
 
+    display: flex;
+    margin: auto;
     width: 50px;
     height: 50px;
-    
+
 }
 
-.nomer{
+.nomer a {
     display: flex;
     text-align: center;
     justify-content: center;
     transition: tranform 0.5s ease-in-out;
+    cursor: pointer;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+
 }
 
-.nomer:hover{
-    transition: 0.3s;
-    box-shadow: 0px 0px 0px 0px rgb(255, 255, 255);
+.nomer a:hover {
+    color: #250ce5;
+    transform: scale(2deg);
 }
-
-
-
